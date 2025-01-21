@@ -1,0 +1,12 @@
+<odoo>
+  <record id="helpdesk_ticket_view_form_inh_int" model="ir.ui.view">
+        <field name="name">helpdesk.ticket.form.inh.int</field>
+        <field name="model">helpdesk.ticket</field>
+        <field name="inherit_id" ref="website_axis_helpdesk.helpdesk_ticket_view_form"/>
+        <field name="arch" type="xml">
+          <xpath expr="//field[@name='partner_email']" position="after">
+              <field name="need_documentation"/>
+          </xpath>
+        </field>
+  </record>
+</odoo>
