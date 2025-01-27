@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-21 14:58+0000\n"
-"PO-Revision-Date: 2025-01-21 09:58-0500\n"
+"POT-Creation-Date: 2025-01-27 23:43+0000\n"
+"PO-Revision-Date: 2025-01-27 18:46-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: es_CO\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,11 +18,98 @@ msgstr ""
 "X-Generator: Poedit 3.5\n"
 
 #. module: custom_intresco
+#: model:ir.model.fields,field_description:custom_intresco.field_res_partner__active_customer
+#: model:ir.model.fields,field_description:custom_intresco.field_res_users__active_customer
+msgid "Active Customer"
+msgstr "Cliente activo"
+
+#. module: custom_intresco
+#: model:ir.model.fields,field_description:custom_intresco.field_res_partner__cc_attachment
+#: model:ir.model.fields,field_description:custom_intresco.field_res_users__cc_attachment
+msgid "Camara de Comercio Attachment"
+msgstr "Cámara de Comercio"
+
+#. module: custom_intresco
+#: model:ir.model.fields,field_description:custom_intresco.field_res_partner__cc_attachment_filename
+#: model:ir.model.fields,field_description:custom_intresco.field_res_users__cc_attachment_filename
+msgid "Camara de Comercio Attachment Filename"
+msgstr "Nombre CC Adjunto"
+
+#. module: custom_intresco
+#: model:ir.model,name:custom_intresco.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: custom_intresco
+#: model:ir.model.fields,field_description:custom_intresco.field_res_partner__contract_attachment
+#: model:ir.model.fields,field_description:custom_intresco.field_res_users__contract_attachment
+msgid "Contract Attachment"
+msgstr "Contrato"
+
+#. module: custom_intresco
+#: model:ir.model.fields,field_description:custom_intresco.field_res_partner__contract_attachment_filename
+#: model:ir.model.fields,field_description:custom_intresco.field_res_users__contract_attachment_filename
+msgid "Contract Attachment Filename"
+msgstr "Nombre del archivo adjunto del contrato"
+
+#. module: custom_intresco
+#: model:ir.model.fields,field_description:custom_intresco.field_res_partner__db_name
+#: model:ir.model.fields,field_description:custom_intresco.field_res_users__db_name
+msgid "DB Name"
+msgstr "Nombre Base de Datos"
+
+#. module: custom_intresco
 #: model:ir.model,name:custom_intresco.model_helpdesk_ticket
 msgid "Helpdesk Ticket"
 msgstr ""
 
 #. module: custom_intresco
+#: model_terms:ir.ui.view,arch_db:custom_intresco.view_partner_form_inh_int
+msgid "Información Legal"
+msgstr ""
+
+#. module: custom_intresco
+#: model_terms:ir.ui.view,arch_db:custom_intresco.view_partner_form_inh_int
+msgid "Información Técnica"
+msgstr ""
+
+#. module: custom_intresco
+#: model:ir.model.fields,field_description:custom_intresco.field_res_partner__is_enterprise
+#: model:ir.model.fields,field_description:custom_intresco.field_res_users__is_enterprise
+msgid "Is Enterprise"
+msgstr "Es Enterprise"
+
+#. module: custom_intresco
 #: model:ir.model.fields,field_description:custom_intresco.field_helpdesk_ticket__need_documentation
 msgid "Need Documentation"
 msgstr "Requiere Documentación"
+
+#. module: custom_intresco
+#: model:ir.model.fields,field_description:custom_intresco.field_res_partner__odoo_version
+#: model:ir.model.fields,field_description:custom_intresco.field_res_users__odoo_version
+msgid "Odoo Version"
+msgstr "Versión Odoo"
+
+#. module: custom_intresco
+#: model:ir.model.fields,field_description:custom_intresco.field_res_partner__rut_attachment
+#: model:ir.model.fields,field_description:custom_intresco.field_res_users__rut_attachment
+msgid "RUT Attachment"
+msgstr "RUT (Adjunto)"
+
+#. module: custom_intresco
+#: model:ir.model.fields,field_description:custom_intresco.field_res_partner__rut_attachment_filename
+#: model:ir.model.fields,field_description:custom_intresco.field_res_users__rut_attachment_filename
+msgid "RUT Attachment Filename"
+msgstr "RUT nombre de adjunto"
+
+#. module: custom_intresco
+#: model:ir.model.fields,field_description:custom_intresco.field_res_partner__server_url
+#: model:ir.model.fields,field_description:custom_intresco.field_res_users__server_url
+msgid "Server URL"
+msgstr "IP Servidor"
+
+#. module: custom_intresco
+#: model:ir.model.fields,field_description:custom_intresco.field_res_partner__user_qty
+#: model:ir.model.fields,field_description:custom_intresco.field_res_users__user_qty
+msgid "User Quantity"
+msgstr "Cantidad Usuarios"
