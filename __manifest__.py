@@ -19,12 +19,17 @@
     'version': '15.0',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'website_axis_helpdesk'],
+    'depends': [
+        'base',
+        'account',
+        'website_axis_helpdesk',
+    ],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/helpdesk_views.xml',
+        'views/res_partner_views.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
