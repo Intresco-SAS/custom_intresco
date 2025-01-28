@@ -20,11 +20,10 @@
                 <group>
                     <group>
                         <field name="active_customer"/>
-                        <field name="is_enterprise"/>
-                        <field name="odoo_version"/>
+                        <field name="odoo_version" />
+                        <field name="user_qty"/>   
                     </group>
                     <group>
-                        <field name="user_qty"/>
                         <field name="server_url"/>
                         <field name="db_name"/>
                     </group>

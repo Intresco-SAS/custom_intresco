@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_custom-addons/custom_intresco_custom-addons/custom_intresco,custom-addons/custom_intresco.custom-addons/custom_intresco,model_custom-addons/custom_intresco_custom-addons/custom_intresco,base.group_user,1,1,1,1
+access_odoo_version,access.odoo.version,model_odoo_version,base.group_user,1,1,1,1

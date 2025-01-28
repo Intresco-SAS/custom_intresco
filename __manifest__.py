@@ -27,9 +27,10 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/helpdesk_views.xml',
         'views/res_partner_views.xml',
+        'views/odoo_version_views.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

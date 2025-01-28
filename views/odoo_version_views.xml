@@ -1,0 +1,51 @@
+<odoo>
+    <!-- Acción para abrir la vista del modelo odoo.version -->
+    <record id="action_odoo_version" model="ir.actions.act_window">
+        <field name="name">Odoo Versions</field>
+        <field name="res_model">odoo.version</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create the first Odoo Version
+            </p>
+        </field>
+    </record>
+
+    <!-- Menú para acceder a la vista del modelo odoo.version -->
+    <menuitem
+        id="menu_odoo_version"
+        name="Odoo Versions"
+        action="action_odoo_version"
+        parent="base.menu_custom"
+        sequence="10"/>
+
+    <!-- Vista de formulario para el modelo odoo.version -->
+    <record id="view_odoo_version_form" model="ir.ui.view">
+        <field name="name">odoo.version.form</field>
+        <field name="model">odoo.version</field>
+        <field name="arch" type="xml">
+            <form string="Odoo Version">
+                <sheet>
+                    <group>
+                        <field name="name" invisible="1"/>
+                        <field name="version"/>
+                        <field name="odoo_version_type"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Vista de árbol para el modelo odoo.version -->
+    <record id="view_odoo_version_tree" model="ir.ui.view">
+        <field name="name">odoo.version.tree</field>
+        <field name="model">odoo.version</field>
+        <field name="arch" type="xml">
+            <tree string="Odoo Versions">
+                <field name="name"/>
+                <field name="version"/>
+                <field name="odoo_version_type"/>
+            </tree>
+        </field>
+    </record>
+</odoo>
