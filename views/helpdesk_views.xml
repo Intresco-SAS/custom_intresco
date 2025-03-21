@@ -4,6 +4,10 @@
         <field name="model">helpdesk.ticket</field>
         <field name="inherit_id" ref="website_axis_helpdesk.helpdesk_ticket_view_form"/>
         <field name="arch" type="xml">
+          <xpath expr="//field[@name='partner_name']" position="replace">
+              <field name="contact_id"/>
+              <field name="mobile"/>
+          </xpath>
           <xpath expr="//field[@name='partner_email']" position="after">
               <field name="need_documentation"/>
           </xpath>
