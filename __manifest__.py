@@ -31,6 +31,7 @@
         'views/helpdesk_views.xml',
         'views/res_partner_views.xml',
         'views/odoo_version_views.xml',
+        'views/account_tax_views.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
